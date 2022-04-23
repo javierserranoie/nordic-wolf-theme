@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo rm -rf pkg/ src/ nordic-wolf-theme-0.0.1-1-x86_64.pkg.tar.zst  nordic-wolf-theme-0.0.1.tar.gz && tar -czf ${PWD##*/}-0.0.1.tar.gz ${PWD##*/}-0.0.1 && makepkg -g >> PKGBUILD && makepkg
